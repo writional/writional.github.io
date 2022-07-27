@@ -1,13 +1,22 @@
 @font-face {
-    font-family: main-font;
+    font-family: poppins;
     src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter-Regular.ttf);
 }
 
 h1,
 h2,
 h3 {
-    font-family: main-font;
+    font-family: poppins;
     font-weight: bold;
+}
+
+p {
+    font-family: inter;
 }
 
 .logo-header {
